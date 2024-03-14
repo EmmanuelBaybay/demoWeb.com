@@ -1,0 +1,112 @@
+/*#E90808*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'arial', arial;
+    box-sizing: border-box;
+    background-image: url(images/BSUbackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+        width: 447px;
+        height: 581px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: rgb(255, 0, 0);
+        text-align: center;
+        border-radius: 10px;
+    
+}
+
+
+.textBoxes{
+        width: 260px;
+        height: 40px;
+        background:rgb(255, 255, 255);
+        border-radius: 10px;
+        margin: 10px auto;
+        filter: drop-shadow(2px 2px 2px #222);
+    
+}
+
+.textBoxes input{
+    background: none;
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 90%;
+    line-height: 40px;
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+}
+
+.loginBtn{
+    width: 230px;
+    height: 50px;
+    background:rgb(233, 8, 8);
+    border-radius: 10px;
+    margin: 16px auto;
+    display: block;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    filter: drop-shadow(2px 2px 2px #222);
+}
+
+.logoutBtn {
+    margin-top: 25px;
+    margin-right: 25px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+.titleContainer {
+    background-image: url(/images/Title.png);
+    width: 500px;
+    height: 100%;
+}
+
+.menu {
+    position: fixed;
+    margin-left: 35%;
+    margin-top: 6%;
+    width: 500px;
+    height: 1000px;
+    background-image: url(images/menu.png);
+    background-repeat: no-repeat;   
+}
+
+.logo {
+    margin-top: 2%;
+    margin-left: 45%;
+    position: absolute;
+    width: 175px;
+}
+
+.InitiateBtn {
+    margin-top: 49%;
+    margin-left: 14%;
+    background-color: transparent;
+    border: none;
+}
+
+.CurrentBtn {
+    margin-top: 5%;
+    margin-left: 14%;
+    background-color: transparent;
+    border: none;
+}
+
+.ViewBtn {
+    margin-top: 5%;
+    margin-left: 14%;
+    background-color: transparent;
+    border: none;
+}
